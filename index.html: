@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Tài Xỉu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chơi Tài Xỉu</h1>
+        <div class="game">
+            <button id="taiButton" class="bet-button">Tài</button>
+            <button id="xiuButton" class="bet-button">Xỉu</button>
+        </div>
+        <div class="dice">
+            <img src="" id="dice1" alt="Dice">
+            <img src="" id="dice2" alt="Dice">
+            <img src="" id="dice3" alt="Dice">
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
